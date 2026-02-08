@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Cours 2 - Histoire de l’informatique</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<main class="container">
+
+  <section class="card">
+    <h1>📘 Cours 2 : Histoire de l’informatique</h1>
+    <p>
+      Ce cours présente l’évolution de l’informatique depuis ses origines
+      jusqu’aux technologies modernes.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>🧠 Introduction</h2>
+    <p>
+      L’informatique est le résultat de plusieurs siècles de recherches
+      visant à automatiser le traitement de l’information.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>🧮 Les origines du calcul</h2>
+    <ul>
+      <li>Le boulier</li>
+      <li>Les tables de calcul</li>
+      <li>Les machines mécaniques</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>👨‍🔬 Les pionniers</h2>
+    <ul>
+      <li><strong>Blaise Pascal</strong> – Pascaline</li>
+      <li><strong>Charles Babbage</strong> – Machine analytique</li>
+      <li><strong>Ada Lovelace</strong> – Premier algorithme</li>
+      <li><strong>Alan Turing</strong> – Machine universelle</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>🖥️ Les générations d’ordinateurs</h2>
+    <ol>
+      <li>Tubes à vide</li>
+      <li>Transistors</li>
+      <li>Circuits intégrés</li>
+      <li>Microprocesseurs</li>
+      <li>Intelligence artificielle</li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2>🌍 Conclusion</h2>
+    <p>
+      L’informatique est aujourd’hui au cœur de la société moderne et
+      continue d’évoluer rapidement.
+    </p>
+  </section>
+
+</main>
+
+</body>
+</html>

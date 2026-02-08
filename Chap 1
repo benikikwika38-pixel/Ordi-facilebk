@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Cours 1 – Introduction à l’informatique</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header class="hero">
+  <h1>Cours 1 : Introduction à l’informatique</h1>
+  <p>Fondements et définition de la science informatique</p>
+</header>
+
+<nav class="navbar">
+  <a href="../index.html">Accueil</a>
+  <a href="../cours.html">Cours</a>
+</nav>
+
+<main class="container">
+
+  <section class="card">
+    <h2>📘 Définition de l’informatique</h2>
+    <p>
+      L’informatique est la science du traitement automatique de l’information.
+      Elle repose sur l’utilisation de machines appelées ordinateurs, capables
+      de recevoir, stocker, traiter et restituer des données selon des instructions
+      précises appelées programmes.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>🎯 Objectif de l’informatique</h2>
+    <p>
+      L’objectif principal de l’informatique est de faciliter le traitement rapide
+      et fiable de grandes quantités d’informations. Elle permet d’automatiser des
+      tâches complexes, de résoudre des problèmes et d’améliorer la productivité
+      dans presque tous les domaines de la vie moderne.
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>🌍 Importance de l’informatique</h2>
+    <p>
+      Aujourd’hui, l’informatique est omniprésente : éducation, médecine,
+      télécommunications, finance, recherche scientifique et administration.
+      Maîtriser ses bases est devenu une compétence fondamentale pour tout citoyen
+      du monde moderne.
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 — Béni Kikwika · Info-Facile</p>
+</footer>
+
+</body>
+</html>

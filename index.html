@@ -1,81 +1,99 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <title>Ordi Facile</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
 
-  <header class="hero">
-    <h1>Ordi Facile</h1>
-    <p>Apprendre l’informatique simplement, pas à pas</p>
-    <a href="cours.html" class="btn">Commencer à apprendre</a>
-  </header>
-<nav class="navbar">
-  <a href="index.html">Accueil</a>
-  <a href="cours.html">Cours</a>
-  <a href="index.html#apropos">À propos</a>
-  </nav>
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
+  text-align: center;
+  padding: 90px 20px;
+}
 
-  <main class="container">
-<section id="apropos" class="card">
-  <h2>ℹ️ À propos</h2>
-  <p>
-    <strong>Ordi Facile</strong> est une initiative éducative conçue pour démocratiser
-    l’accès aux connaissances fondamentales en informatique. Le projet s’adresse
-    principalement aux débutants, aux élèves et à toute personne souhaitant acquérir
-    des bases solides et durables dans l’utilisation de l’ordinateur et des outils numériques.
-  </p>
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
 
-  <p>
-    L’approche pédagogique repose sur une progression méthodique, allant des concepts
-    les plus élémentaires aux notions plus structurées, notamment l’introduction à
-    l’algorithmique et à la pensée logique. Chaque contenu est élaboré dans un langage
-    clair, rigoureux et accessible, afin de favoriser une compréhension approfondie
-    sans simplification excessive.
-  </p>
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 35px;
+  opacity: 0.95;
+}
 
-  <p>
-    À travers <strong>Ordi Facile</strong>, l’objectif est de former des utilisateurs
-    autonomes, critiques et responsables face aux technologies numériques, tout en
-    encourageant l’apprentissage continu et l’excellence intellectuelle.
-  </p>
-  </section>
-    <section id="cours" class="card">
-      <h2>📘 Cours disponibles</h2>
-      <ul>
-        <li>✔ Bases de l’ordinateur</li>
-        <li>✔ Clavier et souris</li>
-        <li>✔ Internet et e-mail</li>
-        <li>✔ Introduction à l’algorithmique</li>
-      </ul>
-    </section>
+.btn-hero {
+  background: white;
+  color: #1e40af;
+  padding: 15px 40px;
+  border-radius: 40px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-    <section id="apropos" class="card">
-      <h2>ℹ️ À propos</h2>
-      <p>
-        Ordi Facile est un site éducatif créé pour aider les débutants
-        à comprendre l’informatique sans stress, avec des explications simples.
-      </p>
-    </section>
+.btn-hero:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
 
-    <section id="contact" class="card">
-      <h2>📞 Contact 0855454962</h2>
-      <p>Email : info@ordifacile.com</p>
-      <p>WhatsApp : +243 0855454962</p>
-    </section>
+/* NAVBAR */
+.navbar {
+  background: #0f172a;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px;
+}
 
-  </main>
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.05rem;
+  opacity: 0.9;
+}
 
-  <footer>
-    <p>© 2026 — Béni Kikwika · Tous droits réservés</p>
-  </footer>
-<ul>
-  <li><a href="cours1.html">Cours 1 : Introduction à l’informatique</a></li>
-  <li><a href="cours2.html">Cours 2 : Histoire de l’informatique</a></li>
-  <li><a href="cours3.html">cours 3 : hardware et software</a></li>
-                                                                 </ul>
-</body>
-</html>
+.navbar a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+/* CONTENU */
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0 20px;
+}
+
+/* CARDS */
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+  color: #1e40af;
+  margin-bottom: 15px;
+}
+
+.card p {
+  line-height: 1.7;
+  font-size: 1.05rem;
+  color: #1f2933;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}

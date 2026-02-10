@@ -1,99 +1,60 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ordi Facile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-/* HERO */
-.hero {
-  background: linear-gradient(135deg, #2563eb, #1e40af);
-  color: white;
-  text-align: center;
-  padding: 90px 20px;
-}
+<header class="hero">
+  <h1>Ordi Facile</h1>
+  <p>Apprendre l’informatique simplement, pas à pas</p>
+  <a href="#cours" class="btn-hero">Commencer à apprendre</a>
+</header>
 
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 15px;
-}
+<nav class="navbar">
+  <a href="index.html">Accueil</a>
+  <a href="#cours">Cours</a>
+  <a href="#apropos">À propos</a>
+</nav>
 
-.hero p {
-  font-size: 1.2rem;
-  margin-bottom: 35px;
-  opacity: 0.95;
-}
+<main class="container">
 
-.btn-hero {
-  background: white;
-  color: #1e40af;
-  padding: 15px 40px;
-  border-radius: 40px;
-  font-weight: bold;
-  text-decoration: none;
-  font-size: 1.1rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+  <!-- COURS -->
+  <section id="cours" class="card">
+    <h2>📘 Cours disponibles</h2>
 
-.btn-hero:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
-}
+    <div class="cours-grid">
+      <a href="cours1.html" class="cours-card">
+        <h3>Cours 1</h3>
+        <p>Introduction à l’informatique</p>
+      </a>
 
-/* NAVBAR */
-.navbar {
-  background: #0f172a;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-  padding: 15px;
-}
+      <a href="cours2.html" class="cours-card">
+        <h3>Cours 2</h3>
+        <p>Histoire & évolution de l’informatique</p>
+      </a>
 
-.navbar a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.05rem;
-  opacity: 0.9;
-}
+      <a href="cours3.html" class="cours-card">
+        <h3>Cours 3</h3>
+        <p>Hardware & Software</p>
+      </a>
+    </div>
+  </section>
 
-.navbar a:hover {
-  opacity: 1;
-  text-decoration: underline;
-}
+  <!-- A PROPOS -->
+  <section id="apropos" class="card">
+    <h2>ℹ️ À propos</h2>
+    <p>
+      <strong>Ordi Facile</strong> est une plateforme éducative conçue pour
+      transmettre les bases fondamentales de l’informatique de manière claire,
+      progressive et rigoureuse.
+    </p>
+  </section>
 
-/* CONTENU */
-.container {
-  max-width: 900px;
-  margin: 50px auto;
-  padding: 0 20px;
-}
+</main>
 
-/* CARDS */
-.card {
-  background: white;
-  border-radius: 16px;
-  padding: 30px;
-  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
-}
-
-.card h2 {
-  color: #1e40af;
-  margin-bottom: 15px;
-}
-
-.card p {
-  line-height: 1.7;
-  font-size: 1.05rem;
-  color: #1f2933;
-}
-
-/* RESPONSIVE */
-@media (max-width: 600px) {
-  .hero h1 {
-    font-size: 2.2rem;
-  }
-
-  .hero p {
-    font-size: 1rem;
-  }
-}
+</body>
+</html>  

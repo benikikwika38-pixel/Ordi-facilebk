@@ -1,37 +1,60 @@
-box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Ordi Facile</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-body {
-  font-family: "Segoe UI", Arial, sans-serif;
-  background-color: #f4f7fb;
-  color: #333;
-  line-height: 1.6;
-}
+<header class="hero">
+  <h1>Ordi Facile</h1>
+  <p>Apprendre l’informatique simplement, pas à pas</p>
+  <a href="#cours" class="btn-hero">Commencer à apprendre</a>
+</header>
 
-/* HERO */
-.hero {
-  background: linear-gradient(135deg, #2563eb, #1e40af);
-  color: white;
-  text-align: center;
-  padding: 60px 20px;
-}
+<nav class="navbar">
+  <a href="index.html">Accueil</a>
+  <a href="#cours">Cours</a>
+  <a href="#apropos">À propos</a>
+</nav>
 
-.hero h1 {
-  font-size: 2.5em;
-  margin-bottom: 10px;
-}
+<main class="container">
 
-.hero p {
-  font-size: 1.1em;
-  margin-bottom: 20px;
-}
+  <!-- COURS -->
+  <section id="cours" class="card">
+    <h2>📘 Cours disponibles</h2>
 
-.btn {
-  background-color: white;
-  color: #1e40af;
-  padding: 12px 25px;
-  text-decoration: none;
-  border-radius: 25px;
-  
+    <div class="cours-grid">
+      <a href="cours1.html" class="cours-card">
+        <h3>Cours 1</h3>
+        <p>Introduction à l’informatique</p>
+      </a>
+
+      <a href="cours2.html" class="cours-card">
+        <h3>Cours 2</h3>
+        <p>Histoire & évolution de l’informatique</p>
+      </a>
+
+      <a href="cours3.html" class="cours-card">
+        <h3>Cours 3</h3>
+        <p>Hardware & Software</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- A PROPOS -->
+  <section id="apropos" class="card">
+    <h2>ℹ️ À propos</h2>
+    <p>
+      <strong>Ordi Facile</strong> est une plateforme éducative conçue pour
+      transmettre les bases fondamentales de l’informatique de manière claire,
+      progressive et rigoureuse.
+    </p>
+  </section>
+
+</main>
+
+</body>
+</html>  

@@ -1,130 +1,37 @@
-/* RESET PRO */
-* {
+box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: "Segoe UI", Roboto, Arial, sans-serif;
 }
 
-/* FOND GLOBAL */
 body {
-  background: linear-gradient(135deg, #f8fafc, #eef2ff);
-  color: #1f2933;
-  line-height: 1.7;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f4f7fb;
+  color: #333;
+  line-height: 1.6;
 }
 
-/* CONTENEUR CENTRAL */
-.container {
-  max-width: 1000px;
-  margin: auto;
-  padding: 40px 20px;
-}
-
-/* HEADER */
-header {
+/* HERO */
+.hero {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+  color: white;
   text-align: center;
-  margin-bottom: 50px;
+  padding: 60px 20px;
 }
 
-header h1 {
-  font-size: 2.7rem;
-  color: #1e3a8a;
+.hero h1 {
+  font-size: 2.5em;
   margin-bottom: 10px;
 }
 
-header p {
-  font-size: 1.1rem;
-  color: #475569;
+.hero p {
+  font-size: 1.1em;
+  margin-bottom: 20px;
 }
 
-/* CARTES DE COURS */
-.card {
-  background: #ffffff;
-  border-radius: 14px;
-  padding: 30px;
-  margin-bottom: 30px;
-  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
-  animation: fadeUp 0.8s ease forwards;
-}
-
-/* TITRES */
-h2 {
+.btn {
+  background-color: white;
   color: #1e40af;
-  margin-bottom: 15px;
-  font-size: 1.6rem;
-}
-
-h3 {
-  margin-top: 20px;
-  color: #334155;
-}
-
-/* TEXTE */
-p {
-  margin-bottom: 15px;
-  font-size: 1.05rem;
-}
-
-/* LISTES */
-ul, ol {
-  margin-left: 20px;
-  margin-top: 10px;
-}
-
-li {
-  margin-bottom: 8px;
-}
-
-/* LIENS */
-a {
+  padding: 12px 25px;
   text-decoration: none;
-  color: #2563eb;
-  font-weight: 500;
-  position: relative;
-}
-
-a::after {
-  content: "";
-  position: absolute;
-  width: 0;
-  height: 2px;
-  left: 0;
-  bottom: -3px;
-  background-color: #2563eb;
-  transition: width 0.3s ease;
-}
-
-a:hover::after {
-  width: 100%;
-}
-
-/* FOOTER */
-footer {
-  text-align: center;
-  margin-top: 60px;
-  color: #64748b;
-  font-size: 0.95rem;
-}
-
-/* ANIMATION */
-@keyframes fadeUp {
-  from {
-    opacity: 0;
-    transform: translateY(25px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* RESPONSIVE */
-@media (max-width: 600px) {
-  header h1 {
-    font-size: 2rem;
-  }
-
-  .card {
-    padding: 20px;
-  }
-  }
+  border-radius: 25px;
+  

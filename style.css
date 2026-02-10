@@ -30,7 +30,7 @@ body {
 .btn {
     display: inline-block;
     margin-top: 35px;
-    padding: 18px 40px;
+    padding: 18px 15px;
     background: white;
     color: #1e40af;
     border-radius: 40px;
@@ -44,7 +44,7 @@ body {
     background: #0f172a;
     display: flex;
     justify-content: space-around;
-    padding: 18px 0;
+    padding: 20px 0;
 }
 
 .nav a {

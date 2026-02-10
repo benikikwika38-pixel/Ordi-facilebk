@@ -1,101 +1,115 @@
- box-sizing: border-box;
+/* RESET DE BASE */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
+/* STYLE GÉNÉRAL */
 body {
   font-family: "Segoe UI", Arial, sans-serif;
-  background-color: #f4f7fb;
-  color: #333;
-  line-height: 1.6;
+  background: #f4f6f9;
+  color: #1f2933;
+  line-height: 1.7;
 }
 
-/* HERO */
-.hero {
-  background: linear-gradient(135deg, #2563eb, #1e40af);
-  color: white;
-  text-align: center;
-  padding: 60px 20px;
-}
-
-.hero h1 {
-  font-size: 2.5em;
-  margin-bottom: 10px;
-}
-
-.hero p {
-  font-size: 1.1em;
-  margin-bottom: 20px;
-}
-
-.btn {
-  background-color: white;
-  color: #1e40af;
-  padding: 12px 25px;
-  text-decoration: none;
-  border-radius: 25px;
-  font-weight: bold;
-}
-
-/* NAVBAR */
-.navbar {
-  background-color: #111827;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.navbar a {
-  color: white;
-  padding: 14px 20px;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-.navbar a:hover {
-  background-color: #2563eb;
-}
-
-/* CONTENT */
+/* CONTENEUR PRINCIPAL */
 .container {
-  max-width: 1000px;
-  margin: auto;
+  max-width: 900px;
+  margin: 40px auto;
   padding: 20px;
 }
 
+/* CARTES DE CONTENU */
 .card {
-  background-color: white;
+  background: #ffffff;
+  padding: 25px 30px;
+  margin-bottom: 25px;
   border-radius: 10px;
-  padding: 25px;
-  margin-bottom: 20px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
 }
 
-.card h2 {
+.card:hover {
+  transform: translateY(-3px);
+}
+
+/* TITRES */
+h1 {
+  font-size: 2.2em;
   margin-bottom: 15px;
-  color: #1e40af;
+  color: #0f172a;
 }
 
-.card ul {
-  list-style: none;
+h2 {
+  font-size: 1.6em;
+  margin-bottom: 12px;
+  color: #1e3a8a;
 }
 
-.card li {
-  margin-bottom: 10px;
+h3 {
+  font-size: 1.2em;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  color: #334155;
 }
 
-/* FOOTER */
-footer {
-  background-color: #111827;
+/* TEXTES */
+p {
+  margin-bottom: 12px;
+  font-size: 1.05em;
+}
+
+/* LISTES */
+ul, ol {
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* SÉPARATEUR */
+hr {
+  margin: 40px 0;
+  border: none;
+  height: 1px;
+  background: #d1d5db;
+}
+
+/* NAVIGATION DES COURS */
+.nav-cours {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.nav-cours a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 18px;
+  border-radius: 8px;
+  background: #1e40af;
   color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 30px;
+  transition: background 0.3s ease;
 }
 
-/* RESPONSIVE */
+.nav-cours a:hover {
+  background: #1d4ed8;
+}
+
+/* RESPONSIVE (TÉLÉPHONE) */
 @media (max-width: 600px) {
-  .hero h1 {
-    font-size: 2em;
+  .container {
+    padding: 10px;
   }
+
+  h1 {
+    font-size: 1.8em;
   }
+
+  h2 {
+    font-size: 1.4em;
+  }
+}

@@ -40,52 +40,7 @@ body {
 }
 
 /* NAV */
-.nav {
-    background: #0f172a;
-    display: flex;
-    justify-content: space-around;
-    padding: 20px 0;
-}
-
-.nav a {
-    /* ===== MENU ===== */
-nav a {
-  color: white;
-  font-size: 46px;   /* 🔥 PLUS GROS */
-  }
-  padding: 24px 22px;
-  display: inline-block;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-/* ===== BOUTON HERO ===== */
-.hero a {
-  display: inline-block;
-  background: white;
-  color: #1e4fd8;
-  font-size: 26px;
-  padding: 22px 48px;
-  border-radius: 50px;
-  text-decoration: none;
-  font-weight: bold;
-}
-@media (max-width: 768px) {
-    nav a {
-        font-size: 28px;
-        padding: 26px 18px;
-    }
-
-    .hero a {
-        font-size: 28px;
-        padding: 24px 52px;
-    }
-}
-
-  .hero a {
-    font-size: 28px;
-    padding: 24px 52px;
-  {
+.  {
 nav a {
   font-size: 34px;
   padding: 28px 24px;
@@ -96,4 +51,31 @@ nav a {
   font-size: 34px;
   padding: 26px 60px;
   font-weight: bold;
+}
+/* ===== MENU ===== */
+nav {
+    background: #0b1220;
+    text-align: center;
+    padding: 25px 0;
+}
+
+nav a {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 35px;
+}
+
+/* ===== BOUTON COMMENCER ===== */
+.hero a {
+    display: inline-block;
+    background: white;
+    color: #1e4fd8;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 22px 55px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 25px;
 }

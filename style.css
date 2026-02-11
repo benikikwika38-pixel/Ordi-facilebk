@@ -83,3 +83,12 @@ nav a {
     padding: 24px 52px;
   }
     }
+nav a {
+  background: red !important;
+  font-size: 50px !important;
+}
+
+.hero a {
+  background: yellow !important;
+  font-size: 50px !important;
+    }

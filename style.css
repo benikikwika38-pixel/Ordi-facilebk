@@ -51,7 +51,8 @@ body {
     /* ===== MENU ===== */
 nav a {
   color: white;
-  font-size: 26px;
+  font-size: 34px;   /* 🔥 PLUS GROS */
+  }
   padding: 24px 22px;
   display: inline-block;
   text-decoration: none;

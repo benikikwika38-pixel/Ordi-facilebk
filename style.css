@@ -61,7 +61,7 @@ nav {
 
 nav a {
     color: white;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: bold;
     text-decoration: none;
     margin: 0 35px;
@@ -72,7 +72,7 @@ nav a {
     display: inline-block;
     background: white;
     color: #1e4fd8;
-    font-size: 26px;
+    font-size: 25px;
     font-weight: bold;
     padding: 22px 55px;
     border-radius: 50px;
